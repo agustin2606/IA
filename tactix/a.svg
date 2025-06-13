@@ -1,0 +1,6 @@
+<svg version="1.1" id="BackgroundSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <path d="M0,0 h100 v100 h-100 z" fill="none" stroke="#000000" stroke-width="1.25"/>
+    <path d="M25,0 v100 M50,0 v100 M75,0 v100 M0,25 h100 M0,50 h100 M0,75 h100" stroke="#000" stroke-width="0.625"/>
+    <defs><g id="r"  stroke="#2A2A2A" stroke-width="0.5" fill="gray"><circle cx="12.5" cy="12.5" r="11"/><circle cx="37.5" cy="12.5" r="11"/><circle cx="62.5" cy="12.5" r="11"/><circle cx="87.5" cy="12.5" r="11"/></g></defs>
+    <use href="#r" x="0" y="0"/><use href="#r" x="0" y="25"/><use href="#r" x="0" y="50"/><use href="#r" x="0" y="75"/>
+</svg>
