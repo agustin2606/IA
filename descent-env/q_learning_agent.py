@@ -23,7 +23,20 @@ class QLearningAgent:
         if random.random() < epsilon:
             return random.randint(0, len(self.actions) - 1)
         else:
-            return np.argmax(self.q[state])
+            total_actions = self.q.shape[1]
+            subset_size = max(1, int(np.log(total_actions)))
+            return self.select_action_from_subset(state, subset_size)
+
+    def select_action_from_subset(self, state, subset_size):
+        action_values = self.q[state]
+        best_action = np.argmax(action_values)
+        subset_start = max(0, best_action - subset_size // 2)
+        subset_end = min(len(action_values), best_action + subset_size // 2 + 1)
+        action_subset = range(subset_start, subset_end)
+        probabilities = np.exp(action_values[subset_start:subset_end] - np.max(action_values[subset_start:subset_end]))
+        probabilities /= np.sum(probabilities)
+        chosen_action_offset = np.random.choice(len(probabilities), p=probabilities)
+        return action_subset[chosen_action_offset]
 
     def train_agent(self, env, episodes, epsilon, gamma, alpha):
         rewards = []
@@ -71,7 +84,7 @@ class QLearningAgent:
                 action_idx = np.argmax(self.q[state])
                 continuous_action = self.actions[action_idx]
 
-                obs, reward, done, _, _ = env.step([continuous_action])
+                obs, reward, done, _, _ = env.step(continuous_action)
                 total_reward += reward
 
             rewards.append(total_reward)
