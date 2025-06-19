@@ -121,7 +121,6 @@ class DescentEnv(gym.Env):
         }
     
     def _get_reward(self):
-
         # reward part of the function
         if self.runway_distance > 0 and self.altitude > 0:
             reward = abs(self.target_alt - self.altitude) * ALT_DIF_REWARD_SCALE

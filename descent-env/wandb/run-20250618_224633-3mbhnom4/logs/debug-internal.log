@@ -1,0 +1,16 @@
+{"time":"2025-06-18T22:46:33.968797-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/wandb/run-20250618_224633-3mbhnom4/logs/debug-core.log"}
+{"time":"2025-06-18T22:46:34.311703-03:00","level":"INFO","msg":"stream: created new stream","id":"3mbhnom4"}
+{"time":"2025-06-18T22:46:34.311757-03:00","level":"INFO","msg":"stream: started","id":"3mbhnom4"}
+{"time":"2025-06-18T22:46:34.311793-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"3mbhnom4"}
+{"time":"2025-06-18T22:46:34.311823-03:00","level":"INFO","msg":"handler: started","stream_id":"3mbhnom4"}
+{"time":"2025-06-18T22:46:34.311884-03:00","level":"INFO","msg":"sender: started","stream_id":"3mbhnom4"}
+{"time":"2025-06-18T22:46:34.572842-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-18T22:46:34.652715-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-18T22:46:34.652745-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-18T22:46:35.657266-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading requirements.txt","runtime_seconds":0.777748,"progress":"1.4KB/1.4KB"},{"desc":"uploading output.log","runtime_seconds":0.519205792,"progress":"117B/117B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.519200333,"progress":"130B/130B"},{"desc":"uploading config.yaml","runtime_seconds":0.291846916,"progress":"973B/973B"}],"total_operations":4}}
+{"time":"2025-06-18T22:46:36.087048-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-18T22:46:36.370094-03:00","level":"INFO","msg":"stream: closing","id":"3mbhnom4"}
+{"time":"2025-06-18T22:46:36.370121-03:00","level":"INFO","msg":"handler: closed","stream_id":"3mbhnom4"}
+{"time":"2025-06-18T22:46:36.370146-03:00","level":"INFO","msg":"sender: closed","stream_id":"3mbhnom4"}
+{"time":"2025-06-18T22:46:36.370356-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3mbhnom4"}
+{"time":"2025-06-18T22:46:36.370397-03:00","level":"INFO","msg":"stream: closed","id":"3mbhnom4"}

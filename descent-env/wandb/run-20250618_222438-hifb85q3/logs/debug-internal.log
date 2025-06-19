@@ -1,0 +1,16 @@
+{"time":"2025-06-18T22:24:39.383457-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/wandb/run-20250618_222438-hifb85q3/logs/debug-core.log"}
+{"time":"2025-06-18T22:24:39.728676-03:00","level":"INFO","msg":"stream: created new stream","id":"hifb85q3"}
+{"time":"2025-06-18T22:24:39.728772-03:00","level":"INFO","msg":"stream: started","id":"hifb85q3"}
+{"time":"2025-06-18T22:24:39.728813-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"hifb85q3"}
+{"time":"2025-06-18T22:24:39.728839-03:00","level":"INFO","msg":"sender: started","stream_id":"hifb85q3"}
+{"time":"2025-06-18T22:24:39.728861-03:00","level":"INFO","msg":"handler: started","stream_id":"hifb85q3"}
+{"time":"2025-06-18T22:24:40.050337-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-18T22:25:08.579616-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-18T22:25:08.579951-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-18T22:25:09.388988-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-18T22:25:09.615008-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary, console lines 0-0","runtime_seconds":0.225928958}],"total_operations":1}}
+{"time":"2025-06-18T22:25:09.726835-03:00","level":"INFO","msg":"stream: closing","id":"hifb85q3"}
+{"time":"2025-06-18T22:25:09.726865-03:00","level":"INFO","msg":"handler: closed","stream_id":"hifb85q3"}
+{"time":"2025-06-18T22:25:09.726876-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hifb85q3"}
+{"time":"2025-06-18T22:25:09.726975-03:00","level":"INFO","msg":"sender: closed","stream_id":"hifb85q3"}
+{"time":"2025-06-18T22:25:09.726991-03:00","level":"INFO","msg":"stream: closed","id":"hifb85q3"}

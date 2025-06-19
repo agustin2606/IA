@@ -1,0 +1,62 @@
+2025-06-18 22:23:11,158 INFO    MainThread:79307 [wandb_setup.py:_flush():81] Current SDK version is 0.20.1
+2025-06-18 22:23:11,158 INFO    MainThread:79307 [wandb_setup.py:_flush():81] Configure stats pid to 79307
+2025-06-18 22:23:11,158 INFO    MainThread:79307 [wandb_setup.py:_flush():81] Loading settings from /Users/agustinvarela/.config/wandb/settings
+2025-06-18 22:23:11,158 INFO    MainThread:79307 [wandb_setup.py:_flush():81] Loading settings from /Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/wandb/settings
+2025-06-18 22:23:11,158 INFO    MainThread:79307 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-06-18 22:23:11,158 ERROR   MainThread:79307 [wandb_setup.py:_flush():83] error in wandb.init()
+Traceback (most recent call last):
+  File "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/.venv/lib/python3.10/site-packages/IPython/core/interactiveshell.py", line 3579, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/var/folders/fc/t9nhm17d5nq_9yd6hmvclkz80000gn/T/ipykernel_79307/1985689533.py", line 2, in <module>
+    wandb.init(project="descent_env_training", name="training_run")
+  File "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1623, in init
+    wandb._sentry.reraise(e)
+  File "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/.venv/lib/python3.10/site-packages/wandb/analytics/sentry.py", line 156, in reraise
+    raise exc.with_traceback(sys.exc_info()[2])
+  File "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1551, in init
+    wi.maybe_login(init_settings)
+  File "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 191, in maybe_login
+    wandb_login._login(
+  File "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_login.py", line 315, in _login
+    key, key_status = wlogin.prompt_api_key(referrer=referrer)
+  File "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_login.py", line 236, in prompt_api_key
+    key, status = self._prompt_api_key(referrer)
+  File "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/.venv/lib/python3.10/site-packages/wandb/sdk/wandb_login.py", line 212, in _prompt_api_key
+    key = apikey.prompt_api_key(
+  File "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/.venv/lib/python3.10/site-packages/wandb/sdk/lib/apikey.py", line 192, in prompt_api_key
+    key = input_callback(api_ask).strip()
+  File "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/.venv/lib/python3.10/site-packages/click/termui.py", line 168, in prompt
+    value = prompt_func(prompt)
+  File "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/.venv/lib/python3.10/site-packages/click/termui.py", line 151, in prompt_func
+    raise Abort() from None
+click.exceptions.Abort
+2025-06-18 22:23:11,159 INFO    MainThread:79307 [wandb_init.py:setup_run_log_directory():703] Logging user logs to /Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/wandb/run-20250618_222311-kbx2sji6/logs/debug.log
+2025-06-18 22:23:11,159 INFO    MainThread:79307 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to /Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/wandb/run-20250618_222311-kbx2sji6/logs/debug-internal.log
+2025-06-18 22:23:11,159 INFO    MainThread:79307 [wandb_init.py:monkeypatch_ipython():622] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x17fc9d0f0>
+2025-06-18 22:23:11,159 INFO    MainThread:79307 [wandb_init.py:init():831] calling init triggers
+2025-06-18 22:23:11,159 INFO    MainThread:79307 [wandb_init.py:init():836] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-06-18 22:23:11,159 INFO    MainThread:79307 [wandb_init.py:init():872] starting backend
+2025-06-18 22:23:11,998 INFO    MainThread:79307 [wandb_init.py:init():875] sending inform_init request
+2025-06-18 22:23:12,021 INFO    MainThread:79307 [wandb_init.py:init():883] backend started and connected
+2025-06-18 22:23:12,027 INFO    MainThread:79307 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2025-06-18 22:23:12,028 INFO    MainThread:79307 [wandb_init.py:init():956] updated telemetry
+2025-06-18 22:23:12,048 INFO    MainThread:79307 [wandb_init.py:init():980] communicating run to backend with 90.0 second timeout
+2025-06-18 22:23:12,916 INFO    MainThread:79307 [wandb_init.py:init():1032] starting run threads in backend
+2025-06-18 22:23:13,011 INFO    MainThread:79307 [wandb_run.py:_console_start():2453] atexit reg
+2025-06-18 22:23:13,011 INFO    MainThread:79307 [wandb_run.py:_redirect():2301] redirect: wrap_raw
+2025-06-18 22:23:13,012 INFO    MainThread:79307 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2025-06-18 22:23:13,012 INFO    MainThread:79307 [wandb_run.py:_redirect():2393] Redirects installed.
+2025-06-18 22:23:13,015 INFO    MainThread:79307 [wandb_init.py:init():1078] run started, returning control to user process
+2025-06-18 22:23:13,045 INFO    MainThread:79307 [wandb_init.py:_post_run_cell_hook():592] [no run ID] resuming backend
+2025-06-18 22:23:39,151 INFO    MainThread:79307 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-06-18 22:23:39,152 INFO    MainThread:79307 [wandb_init.py:_pre_run_cell_hook():581] [no run ID] pausing backend
+2025-06-18 22:23:39,162 INFO    MainThread:79307 [wandb_run.py:_finish():2219] finishing run artificial-inteligence-ort/descent_env_training/kbx2sji6
+2025-06-18 22:23:39,163 INFO    MainThread:79307 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2025-06-18 22:23:39,163 INFO    MainThread:79307 [wandb_init.py:_jupyter_teardown():607] cleaning up jupyter logic
+2025-06-18 22:23:39,164 INFO    MainThread:79307 [wandb_run.py:_atexit_cleanup():2418] got exitcode: 0
+2025-06-18 22:23:39,164 INFO    MainThread:79307 [wandb_run.py:_restore():2400] restore
+2025-06-18 22:23:39,164 INFO    MainThread:79307 [wandb_run.py:_restore():2406] restore done
+2025-06-18 22:23:40,259 INFO    MainThread:79307 [wandb_run.py:_footer_history_summary_info():4000] rendering history
+2025-06-18 22:23:40,259 INFO    MainThread:79307 [wandb_run.py:_footer_history_summary_info():4032] rendering summary
+2025-06-18 22:23:40,259 INFO    MainThread:79307 [wandb_run.py:_footer_sync_info():3961] logging synced files

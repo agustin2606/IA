@@ -19,24 +19,22 @@ class QLearningAgent:
         runway_dist_idx = np.digitize(state['runway_distance'][0], self.runway_distance_space) - 1
         return (alt_idx, vz_idx, target_alt_idx, runway_dist_idx)
 
+    def select_action_from_subset(self, state, subset_size):
+        # Selecciona un subconjunto aleatorio de acciones
+        total_actions = len(self.actions)
+        subset = random.sample(range(total_actions), subset_size)
+        # Devuelve la acción con el mayor valor Q dentro del subconjunto
+        return max(subset, key=lambda action: self.q[state][action])
+    
     def next_action(self, state, epsilon):
         if random.random() < epsilon:
+            # Exploración: elige una acción aleatoria
             return random.randint(0, len(self.actions) - 1)
         else:
-            total_actions = self.q.shape[1]
+            # Explotación: selecciona la mejor acción dentro de un subconjunto
+            total_actions = len(self.actions)
             subset_size = max(1, int(np.log(total_actions)))
             return self.select_action_from_subset(state, subset_size)
-
-    def select_action_from_subset(self, state, subset_size):
-        action_values = self.q[state]
-        best_action = np.argmax(action_values)
-        subset_start = max(0, best_action - subset_size // 2)
-        subset_end = min(len(action_values), best_action + subset_size // 2 + 1)
-        action_subset = range(subset_start, subset_end)
-        probabilities = np.exp(action_values[subset_start:subset_end] - np.max(action_values[subset_start:subset_end]))
-        probabilities /= np.sum(probabilities)
-        chosen_action_offset = np.random.choice(len(probabilities), p=probabilities)
-        return action_subset[chosen_action_offset]
 
     def train_agent(self, env, episodes, epsilon, gamma, alpha):
         rewards = []

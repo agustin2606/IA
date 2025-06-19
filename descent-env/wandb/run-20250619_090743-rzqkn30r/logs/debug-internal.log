@@ -1,0 +1,16 @@
+{"time":"2025-06-19T09:07:43.644119-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/wandb/run-20250619_090743-rzqkn30r/logs/debug-core.log"}
+{"time":"2025-06-19T09:07:44.839461-03:00","level":"INFO","msg":"stream: created new stream","id":"rzqkn30r"}
+{"time":"2025-06-19T09:07:44.839556-03:00","level":"INFO","msg":"stream: started","id":"rzqkn30r"}
+{"time":"2025-06-19T09:07:44.83963-03:00","level":"INFO","msg":"handler: started","stream_id":"rzqkn30r"}
+{"time":"2025-06-19T09:07:44.839643-03:00","level":"INFO","msg":"sender: started","stream_id":"rzqkn30r"}
+{"time":"2025-06-19T09:07:44.839644-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"rzqkn30r"}
+{"time":"2025-06-19T09:07:45.182078-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-19T09:07:45.264204-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-19T09:07:45.264248-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-19T09:07:46.267912-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.502904334,"progress":"129B/129B"},{"desc":"uploading config.yaml","runtime_seconds":0.267053375,"progress":"974B/974B"}],"total_operations":2}}
+{"time":"2025-06-19T09:07:47.551324-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-19T09:07:48.020547-03:00","level":"INFO","msg":"stream: closing","id":"rzqkn30r"}
+{"time":"2025-06-19T09:07:48.020565-03:00","level":"INFO","msg":"handler: closed","stream_id":"rzqkn30r"}
+{"time":"2025-06-19T09:07:48.020576-03:00","level":"INFO","msg":"sender: closed","stream_id":"rzqkn30r"}
+{"time":"2025-06-19T09:07:48.021208-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rzqkn30r"}
+{"time":"2025-06-19T09:07:48.021228-03:00","level":"INFO","msg":"stream: closed","id":"rzqkn30r"}
