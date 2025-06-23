@@ -40,7 +40,7 @@ class QLearningAgent:
         rewards = []
         initial_epsilon = epsilon
         final_epsilon = 0.01
-        epsilon_decay = (initial_epsilon - final_epsilon) / (episodes / 2)
+        epsilon_decay = (initial_epsilon - final_epsilon) / (episodes / 10)
 
         for episode in range(episodes):
             obs, _ = env.reset()
