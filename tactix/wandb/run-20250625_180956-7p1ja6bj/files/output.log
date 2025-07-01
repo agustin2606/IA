@@ -1,0 +1,13 @@
+Probability | Agent 1 Wins | Agent 2 Wins
+0.0         | 2          | 18
+0.1         | 4          | 16
+0.2         | 4          | 16
+0.3         | 7          | 13
+0.4         | 4          | 16
+0.5         | 3          | 17
+0.6         | 2          | 18
+0.7         | 3          | 17
+0.8         | 3          | 17
+0.9         | 4          | 16
+1.0         | 0          | 20
+[34m[1mwandb[0m: [32m[41mERROR[0m The nbformat package was not found. It is required to save notebook history.

@@ -1,0 +1,16 @@
+{"time":"2025-06-25T18:09:10.989424-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/tactix/wandb/run-20250625_180909-ukiawnfn/logs/debug-core.log"}
+{"time":"2025-06-25T18:09:11.44741-03:00","level":"INFO","msg":"stream: created new stream","id":"ukiawnfn"}
+{"time":"2025-06-25T18:09:11.447449-03:00","level":"INFO","msg":"stream: started","id":"ukiawnfn"}
+{"time":"2025-06-25T18:09:11.447457-03:00","level":"INFO","msg":"handler: started","stream_id":"ukiawnfn"}
+{"time":"2025-06-25T18:09:11.44748-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"ukiawnfn"}
+{"time":"2025-06-25T18:09:11.44748-03:00","level":"INFO","msg":"sender: started","stream_id":"ukiawnfn"}
+{"time":"2025-06-25T18:09:11.819769-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-25T18:09:56.835377-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-25T18:09:56.835828-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-25T18:09:57.840831-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.772189167,"progress":"25B/25B"},{"desc":"uploading config.yaml","runtime_seconds":0.577139583,"progress":"323B/323B"}],"total_operations":2}}
+{"time":"2025-06-25T18:09:58.043533-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-25T18:09:58.284134-03:00","level":"INFO","msg":"stream: closing","id":"ukiawnfn"}
+{"time":"2025-06-25T18:09:58.284215-03:00","level":"INFO","msg":"handler: closed","stream_id":"ukiawnfn"}
+{"time":"2025-06-25T18:09:58.284248-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ukiawnfn"}
+{"time":"2025-06-25T18:09:58.284377-03:00","level":"INFO","msg":"sender: closed","stream_id":"ukiawnfn"}
+{"time":"2025-06-25T18:09:58.284395-03:00","level":"INFO","msg":"stream: closed","id":"ukiawnfn"}

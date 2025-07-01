@@ -1,0 +1,17 @@
+{"time":"2025-06-25T18:08:13.830895-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/tactix/wandb/run-20250625_180813-llp5s39n/logs/debug-core.log"}
+{"time":"2025-06-25T18:08:14.423655-03:00","level":"INFO","msg":"stream: created new stream","id":"llp5s39n"}
+{"time":"2025-06-25T18:08:14.423704-03:00","level":"INFO","msg":"stream: started","id":"llp5s39n"}
+{"time":"2025-06-25T18:08:14.423736-03:00","level":"INFO","msg":"handler: started","stream_id":"llp5s39n"}
+{"time":"2025-06-25T18:08:14.423766-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"llp5s39n"}
+{"time":"2025-06-25T18:08:14.423768-03:00","level":"INFO","msg":"sender: started","stream_id":"llp5s39n"}
+{"time":"2025-06-25T18:08:14.811863-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-06-25T18:09:09.465932-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-06-25T18:09:09.483828-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-06-25T18:09:09.483894-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-06-25T18:09:10.491871-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.767506458,"progress":"117B/117B"},{"desc":"uploading config.yaml","runtime_seconds":0.558783916,"progress":"323B/323B"}],"total_operations":2}}
+{"time":"2025-06-25T18:09:10.683253-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-06-25T18:09:10.988199-03:00","level":"INFO","msg":"stream: closing","id":"llp5s39n"}
+{"time":"2025-06-25T18:09:10.988221-03:00","level":"INFO","msg":"handler: closed","stream_id":"llp5s39n"}
+{"time":"2025-06-25T18:09:10.988244-03:00","level":"INFO","msg":"sender: closed","stream_id":"llp5s39n"}
+{"time":"2025-06-25T18:09:10.988252-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"llp5s39n"}
+{"time":"2025-06-25T18:09:10.988449-03:00","level":"INFO","msg":"stream: closed","id":"llp5s39n"}
