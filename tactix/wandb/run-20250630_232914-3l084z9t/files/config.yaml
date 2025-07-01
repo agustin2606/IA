@@ -1,0 +1,46 @@
+_wandb:
+    value:
+        cli_version: 0.20.1
+        m: []
+        python_version: 3.10.8
+        t:
+            "3":
+                - 2
+                - 13
+                - 55
+            "4": 3.10.8
+            "5": 0.20.1
+            "8":
+                - 1
+            "12": 0.20.1
+            "13": darwin-arm64
+        visualize:
+            total_wins_bar_chat:
+                panel_config:
+                    fieldSettings:
+                        label: Agent
+                        value: Wins
+                    panelDefId: wandb/bar/v0
+                    stringSettings:
+                        title: Total Wins by Agent
+                    transform:
+                        name: tableWithLeafColNames
+                    userQuery:
+                        queryFields:
+                            - args:
+                                - name: runSets
+                                  value: ${runSets}
+                              fields:
+                                - fields: []
+                                  name: id
+                                - fields: []
+                                  name: name
+                                - fields: []
+                                  name: _defaultColorIndex
+                                - args:
+                                    - name: tableKey
+                                      value: total_wins_bar_chat_table
+                                  fields: []
+                                  name: summaryTable
+                              name: runSets
+                panel_type: Vega2
