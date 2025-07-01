@@ -1,0 +1,44 @@
+{
+  "os":  "macOS-15.5-arm64-arm-64bit",
+  "python":  "CPython 3.10.8",
+  "startedAt":  "2025-06-25T21:09:58.285881Z",
+  "program":  "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/tactix/tactix.ipynb",
+  "codePath":  "tactix/tactix.ipynb",
+  "git":  {
+    "remote":  "https://github.com/agustin2606/IA.git",
+    "commit":  "762d693ef8a4ee2b72ca0e22edfa6384137fdca0"
+  },
+  "email":  "agustinvarela2606@gmail.com",
+  "root":  "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/tactix",
+  "host":  "192.168.1.11",
+  "executable":  "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/tactix/.venv/bin/python",
+  "codePathLocal":  "tactix.ipynb",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "361146454016"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "494384795648",
+      "used":  "361146454016"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  },
+  "apple":  {
+    "name":  "Apple M1 Pro",
+    "ecpuCores":  2,
+    "pcpuCores":  6,
+    "gpuCores":  14,
+    "memoryGb":  16,
+    "swapTotalBytes":  "12884901888",
+    "ramTotalBytes":  "17179869184"
+  }
+}

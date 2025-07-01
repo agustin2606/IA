@@ -1,47 +1,120 @@
 from agent import Agent
 from tactix_env import TacTixEnv
 import math
+import numpy as np
 
 class MinimaxAgent(Agent):
     def __init__(self, env: TacTixEnv, player=1, depth=3):
         super().__init__(env)
         self.env = env
-        self.player = player
+        self.player = player  
+        self.agent_id = player - 1
         self.opponent = 2 if player == 1 else 1
+        self.opponent_id = 1 - self.agent_id
         self.depth = depth
 
+    def act(self, obs):
+        return self.next_action(obs)
+        
+    def is_terminal(self, state):
+        board = state["board"]
+        return np.count_nonzero(board) == 0
+        
+    def get_legal_actions(self, state, player_num):
+        board = state["board"]
+        actions = []
+        
+        # Check all possible row actions
+        for row in range(self.env.board_size):
+            start = None
+            for col in range(self.env.board_size):
+                if board[row, col] == 1:
+                    if start is None:
+                        start = col
+                else:
+                    if start is not None:
+                        # Found a valid segment
+                        for end in range(start, col):
+                            actions.append([row, start, end, 1])
+                        start = None
+            # Check if we have a segment at the end of the row
+            if start is not None:
+                for end in range(start, self.env.board_size):
+                    actions.append([row, start, end, 1])
+                    
+        # Check all possible column actions
+        for col in range(self.env.board_size):
+            start = None
+            for row in range(self.env.board_size):
+                if board[row, col] == 1:
+                    if start is None:
+                        start = row
+                else:
+                    if start is not None:
+                        # Found a valid segment
+                        for end in range(start, row):
+                            actions.append([col, start, end, 0])
+                        start = None
+            # Check if we have a segment at the end of the column
+            if start is not None:
+                for end in range(start, self.env.board_size):
+                    actions.append([col, start, end, 0])
+                    
+        return actions
+        
     def heuristic_utility(self, state):
         """
         Heurística para evaluar el estado del juego.
-        Puedes personalizar esta función según las reglas de TacTix.
         """
-        # Ejemplo básico: diferencia entre las acciones legales de ambos jugadores
-        player_actions = len(self.env.get_legal_actions(state, self.player))
-        opponent_actions = len(self.env.get_legal_actions(state, self.opponent))
+        if self.is_terminal(state):
+            # If it's terminal, check whose turn it is to determine winner
+            current_player = state["current_player"]
+            if current_player == self.agent_id:  # Opponent made the last move
+                return 1000 if not self.env.misere else -1000
+            else:  # Agent made the last move
+                return -1000 if not self.env.misere else 1000
+        
+        player_actions = len(self.get_legal_actions(state, self.player))
+        opponent_actions = len(self.get_legal_actions(state, self.opponent))
         return player_actions - opponent_actions
 
+    def perform_action(self, state, action):
+        board = state["board"].copy()
+        current_player = state["current_player"]
+        idx, start, end, is_row = action
+        is_row = bool(is_row)
+        
+        if is_row:
+            board[idx, start:end+1] = 0
+        else:
+            board[start:end+1, idx] = 0
+            
+        next_player = 1 - current_player
+        
+        return {
+            "board": board,
+            "current_player": next_player
+        }
+    
     def next_action(self, state):
-        """
-        Decide la mejor acción utilizando Minimax con Alpha-Beta Pruning.
-        """
         best_action, _ = self.minimax(state, self.depth, -math.inf, math.inf, True)
         return best_action
 
     def minimax(self, state, depth, alpha, beta, maximizing_player):
-        """
-        Implementación del algoritmo Minimax con poda Alpha-Beta.
-        """
-        if depth == 0 or self.env.is_terminal(state):
+        if depth == 0 or self.is_terminal(state):
             return None, self.heuristic_utility(state)
 
         current_player = self.player if maximizing_player else self.opponent
-        possible_actions = self.env.get_legal_actions(state, current_player)
+        possible_actions = self.get_legal_actions(state, current_player)
+        
+        if not possible_actions:  # No legal moves
+            return None, self.heuristic_utility(state)
 
         if maximizing_player:
             value = -math.inf
-            best_action = None
+            best_action = possible_actions[0] if possible_actions else None
             for action in possible_actions:
-                new_state = self.env.perform_action(state, action)
+                new_state = self.perform_action(state, action)
                 _, new_value = self.minimax(new_state, depth - 1, alpha, beta, False)
                 if new_value > value:
                     value = new_value
@@ -52,9 +125,9 @@ class MinimaxAgent(Agent):
             return best_action, value
         else:
             value = math.inf
-            best_action = None
+            best_action = possible_actions[0] if possible_actions else None
             for action in possible_actions:
-                new_state = self.env.perform_action(state, action)
+                new_state = self.perform_action(state, action)
                 _, new_value = self.minimax(new_state, depth - 1, alpha, beta, True)
                 if new_value < value:
                     value = new_value
