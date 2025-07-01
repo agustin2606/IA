@@ -2,7 +2,7 @@ import random
 import numpy as np
 
 
-class QLearningAgent:
+class QLearningStochasticAgent:
     def __init__(self, altitude_space, vertical_velocity_space, target_altitude_space, runway_distance_space, actions, env):
         self.q = np.zeros((len(altitude_space), len(vertical_velocity_space), len(target_altitude_space), len(runway_distance_space), len(actions)))
         self.altitude_space = altitude_space
@@ -55,10 +55,14 @@ class QLearningAgent:
                 next_obs, reward, done, _, _ = env.step(continuous_action)
                 next_state = self._get_state_index(next_obs)
 
-                best_next_action = np.max(self.q[next_state])
-                td_target = reward + gamma * best_next_action
+                subset_size = max(1, int(np.log(len(self.actions))))
+                subset = random.sample(range(len(self.actions)), subset_size)
+                best_next_q = max([self.q[next_state][a] for a in subset])
+                
+                td_target = reward + gamma * best_next_q
                 td_error = td_target - self.q[state][action_idx]
                 self.q[state][action_idx] += alpha * td_error
+
 
                 obs = next_obs
                 total_reward += reward

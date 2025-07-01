@@ -1,0 +1,29 @@
+_wandb:
+    value:
+        cli_version: 0.20.1
+        m: []
+        python_version: 3.10.11
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 2
+                - 13
+                - 55
+            "4": 3.10.11
+            "5": 0.20.1
+            "8":
+                - 1
+                - 3
+            "12": 0.20.1
+            "13": windows-amd64
+alpha:
+    value: 0.5
+episodes:
+    value: 3000
+epsilon:
+    value: 0.99
+gamma:
+    value: 0.5
