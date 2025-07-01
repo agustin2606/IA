@@ -1,0 +1,16 @@
+{
+  "os":  "Windows-10-10.0.26100-SP0",
+  "python":  "CPython 3.10.11",
+  "startedAt":  "2025-07-01T21:24:31.092590Z",
+  "program":  "c:\\Users\\Agu\\Desktop\\l\\ORT\\INTELIGENCIA_ARTIFICIAL\\IA\\descent-env\\continuous_descent_env.ipynb",
+  "codePath":  "descent-env\\continuous_descent_env.ipynb",
+  "git":  {
+    "remote":  "https://github.com/agustin2606/IA.git",
+    "commit":  "ecf596a94a3e91fc711dc8449d25f71db86021f4"
+  },
+  "email":  "agustinvarela2606@gmail.com",
+  "root":  "c:\\Users\\Agu\\Desktop\\l\\ORT\\INTELIGENCIA_ARTIFICIAL\\IA\\descent-env",
+  "host":  "DESKTOP-68DTOIB",
+  "executable":  "c:\\Users\\Agu\\AppData\\Local\\pypoetry\\Cache\\virtualenvs\\descent-env-iyQbnlqF-py3.10\\Scripts\\python.exe",
+  "codePathLocal":  "continuous_descent_env.ipynb"
+}
