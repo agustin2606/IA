@@ -1,0 +1,16 @@
+{"time":"2025-07-04T22:06:53.80066-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/wandb/run-20250704_220653-tdbkatqv/logs/debug-core.log"}
+{"time":"2025-07-04T22:06:54.15782-03:00","level":"INFO","msg":"stream: created new stream","id":"tdbkatqv"}
+{"time":"2025-07-04T22:06:54.158073-03:00","level":"INFO","msg":"stream: started","id":"tdbkatqv"}
+{"time":"2025-07-04T22:06:54.158239-03:00","level":"INFO","msg":"handler: started","stream_id":"tdbkatqv"}
+{"time":"2025-07-04T22:06:54.15836-03:00","level":"INFO","msg":"sender: started","stream_id":"tdbkatqv"}
+{"time":"2025-07-04T22:06:54.158431-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"tdbkatqv"}
+{"time":"2025-07-04T22:06:54.500295-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-04T22:06:54.63646-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-04T22:06:54.636517-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-04T22:06:55.64921-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.550063,"progress":"131B/131B"},{"desc":"uploading output.log","runtime_seconds":0.550054792,"progress":"117B/117B"},{"desc":"uploading config.yaml","runtime_seconds":0.339223208,"progress":"492B/492B"}],"total_operations":3}}
+{"time":"2025-07-04T22:06:56.072227-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-04T22:06:56.360553-03:00","level":"INFO","msg":"stream: closing","id":"tdbkatqv"}
+{"time":"2025-07-04T22:06:56.360578-03:00","level":"INFO","msg":"handler: closed","stream_id":"tdbkatqv"}
+{"time":"2025-07-04T22:06:56.360719-03:00","level":"INFO","msg":"sender: closed","stream_id":"tdbkatqv"}
+{"time":"2025-07-04T22:06:56.360813-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"tdbkatqv"}
+{"time":"2025-07-04T22:06:56.360872-03:00","level":"INFO","msg":"stream: closed","id":"tdbkatqv"}

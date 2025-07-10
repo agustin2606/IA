@@ -69,8 +69,14 @@ class QLearningStochasticAgent:
 
             rewards.append(total_reward)
             print(f"Episode: {episode}, Reward: {total_reward:.2f}, Epsilon: {epsilon:.2f}")
-            epsilon = max(final_epsilon, initial_epsilon - epsilon_decay * episode)
-
+            #epsilon = max(final_epsilon, initial_epsilon - epsilon_decay * episode)
+            if episode < episodes * 0.2:  
+                epsilon = initial_epsilon  # Mantener el valor inicial durante el primer 20% de los episodios
+            elif episode >= episodes * 0.8:
+                epsilon = final_epsilon  # Fijar el valor final durante el último 20% de los episodios
+            else:
+                epsilon = max(final_epsilon, initial_epsilon * np.exp(-episode / (episodes * 0.5)))
+                        
         return rewards
 
     def test_agent(self, env, episodes):
