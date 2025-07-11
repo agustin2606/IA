@@ -51,7 +51,6 @@ class MinimaxAgent(Agent):
                         start = row
                 else:
                     if start is not None:
-                        # Found a valid segment
                         for end in range(start, row):
                             actions.append([col, start, end, 0])
                         start = None
@@ -61,22 +60,57 @@ class MinimaxAgent(Agent):
                     actions.append([col, start, end, 0])
                     
         return actions
-        
-    def heuristic_utility(self, state):
-        """
-        Heurística para evaluar el estado del juego.
-        """
-        if self.is_terminal(state):
-            # If it's terminal, check whose turn it is to determine winner
-            current_player = state["current_player"]
-            if current_player == self.agent_id:  # Opponent made the last move
-                return 1000 if not self.env.misere else -1000
-            else:  # Agent made the last move
-                return -1000 if not self.env.misere else 1000
-        
+    
+    def heuristic_action_advantage(self, state):
         player_actions = len(self.get_legal_actions(state, self.player))
         opponent_actions = len(self.get_legal_actions(state, self.opponent))
-        return player_actions - opponent_actions
+        return  player_actions - opponent_actions
+    
+    def heuristic_segments(self, state):
+        """
+        Evalúa el estado basado en la cantidad de segmentos largos disponibles.
+        """
+        board = state["board"]
+        long_segments = 0
+    
+        for row in range(self.env.board_size):
+            count = 0
+            for col in range(self.env.board_size):
+                if board[row, col] == 1:
+                    count += 1
+                    if count >= 3:
+                        long_segments += 1
+                else:
+                    count = 0
+    
+        for col in range(self.env.board_size):
+            count = 0
+            for row in range(self.env.board_size):
+                if board[row, col] == 1:
+                    count += 1
+                    if count >= 3:
+                        long_segments += 1
+                else:
+                    count = 0
+    
+        return long_segments
+        
+    def heuristic_utility(self, state):
+        if self.is_terminal(state):
+            current_player = state["current_player"]
+            if current_player == self.agent_id: 
+                return 1000 if not self.env.misere else -1000
+            else: 
+                return -1000 if not self.env.misere else 1000
+    
+        
+        heuristic_action_advantage = self.heuristic_action_advantage(state)
+        heuristic_segments = self.heuristic_segments(state)
+
+        weight_1 = 0.85 
+        weight_2 = 0.15  
+        
+        return weight_1 * heuristic_action_advantage + weight_2 * heuristic_segments
 
     def perform_action(self, state, action):
         board = state["board"].copy()

@@ -1,0 +1,16 @@
+{"time":"2025-07-11T16:09:48.8225358-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\Agu\\Desktop\\l\\ORT\\INTELIGENCIA_ARTIFICIAL\\IA\\tactix\\wandb\\run-20250711_160948-oshmbb41\\logs\\debug-core.log"}
+{"time":"2025-07-11T16:09:49.1636085-03:00","level":"INFO","msg":"stream: created new stream","id":"oshmbb41"}
+{"time":"2025-07-11T16:09:49.1636085-03:00","level":"INFO","msg":"stream: started","id":"oshmbb41"}
+{"time":"2025-07-11T16:09:49.1636085-03:00","level":"INFO","msg":"handler: started","stream_id":"oshmbb41"}
+{"time":"2025-07-11T16:09:49.1636085-03:00","level":"INFO","msg":"sender: started","stream_id":"oshmbb41"}
+{"time":"2025-07-11T16:09:49.1636085-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"oshmbb41"}
+{"time":"2025-07-11T16:09:49.5145998-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-11T16:12:00.7676611-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-11T16:12:00.7676611-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-11T16:12:01.7733793-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-oshmbb41-total_wins_bar_chat_table","runtime_seconds":1.4236827}],"total_operations":1}}
+{"time":"2025-07-11T16:12:02.7822846-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-11T16:12:03.1178036-03:00","level":"INFO","msg":"stream: closing","id":"oshmbb41"}
+{"time":"2025-07-11T16:12:03.1178036-03:00","level":"INFO","msg":"handler: closed","stream_id":"oshmbb41"}
+{"time":"2025-07-11T16:12:03.1178036-03:00","level":"INFO","msg":"sender: closed","stream_id":"oshmbb41"}
+{"time":"2025-07-11T16:12:03.1178036-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"oshmbb41"}
+{"time":"2025-07-11T16:12:03.1178036-03:00","level":"INFO","msg":"stream: closed","id":"oshmbb41"}

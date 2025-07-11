@@ -1,0 +1,17 @@
+{"time":"2025-07-11T18:21:42.5454728-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\Agu\\Desktop\\l\\ORT\\INTELIGENCIA_ARTIFICIAL\\IA\\tactix\\wandb\\run-20250711_182142-c3ev9nip\\logs\\debug-core.log"}
+{"time":"2025-07-11T18:21:42.8820681-03:00","level":"INFO","msg":"stream: created new stream","id":"c3ev9nip"}
+{"time":"2025-07-11T18:21:42.8820681-03:00","level":"INFO","msg":"stream: started","id":"c3ev9nip"}
+{"time":"2025-07-11T18:21:42.8820681-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"c3ev9nip"}
+{"time":"2025-07-11T18:21:42.8820681-03:00","level":"INFO","msg":"handler: started","stream_id":"c3ev9nip"}
+{"time":"2025-07-11T18:21:42.8820681-03:00","level":"INFO","msg":"sender: started","stream_id":"c3ev9nip"}
+{"time":"2025-07-11T18:21:43.1988732-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-11T18:22:17.5228486-03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-07-11T18:22:17.5320845-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-11T18:22:17.5320845-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-11T18:22:18.3501948-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-11T18:22:18.5497507-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 3-3, summary, console lines 0-0","runtime_seconds":0.1995559}],"total_operations":1}}
+{"time":"2025-07-11T18:22:18.6439177-03:00","level":"INFO","msg":"stream: closing","id":"c3ev9nip"}
+{"time":"2025-07-11T18:22:18.6439177-03:00","level":"INFO","msg":"handler: closed","stream_id":"c3ev9nip"}
+{"time":"2025-07-11T18:22:18.6439177-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"c3ev9nip"}
+{"time":"2025-07-11T18:22:18.6439177-03:00","level":"INFO","msg":"sender: closed","stream_id":"c3ev9nip"}
+{"time":"2025-07-11T18:22:18.6439177-03:00","level":"INFO","msg":"stream: closed","id":"c3ev9nip"}
