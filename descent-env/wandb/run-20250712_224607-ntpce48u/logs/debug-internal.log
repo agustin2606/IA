@@ -1,0 +1,16 @@
+{"time":"2025-07-12T22:46:07.957044-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/wandb/run-20250712_224607-ntpce48u/logs/debug-core.log"}
+{"time":"2025-07-12T22:46:08.297014-03:00","level":"INFO","msg":"stream: created new stream","id":"ntpce48u"}
+{"time":"2025-07-12T22:46:08.297063-03:00","level":"INFO","msg":"stream: started","id":"ntpce48u"}
+{"time":"2025-07-12T22:46:08.297221-03:00","level":"INFO","msg":"handler: started","stream_id":"ntpce48u"}
+{"time":"2025-07-12T22:46:08.297234-03:00","level":"INFO","msg":"sender: started","stream_id":"ntpce48u"}
+{"time":"2025-07-12T22:46:08.297248-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"ntpce48u"}
+{"time":"2025-07-12T22:46:08.569215-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-12T22:46:08.640191-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-12T22:46:08.640224-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-12T22:46:09.645896-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.520037584,"progress":"130B/130B"},{"desc":"uploading config.yaml","runtime_seconds":0.303547083,"progress":"493B/493B"}],"total_operations":2}}
+{"time":"2025-07-12T22:46:09.886486-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-12T22:46:10.158682-03:00","level":"INFO","msg":"stream: closing","id":"ntpce48u"}
+{"time":"2025-07-12T22:46:10.158704-03:00","level":"INFO","msg":"handler: closed","stream_id":"ntpce48u"}
+{"time":"2025-07-12T22:46:10.158723-03:00","level":"INFO","msg":"sender: closed","stream_id":"ntpce48u"}
+{"time":"2025-07-12T22:46:10.158919-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ntpce48u"}
+{"time":"2025-07-12T22:46:10.158948-03:00","level":"INFO","msg":"stream: closed","id":"ntpce48u"}

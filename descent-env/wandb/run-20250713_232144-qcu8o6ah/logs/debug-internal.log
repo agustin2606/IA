@@ -1,0 +1,16 @@
+{"time":"2025-07-13T23:21:44.799723-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/wandb/run-20250713_232144-qcu8o6ah/logs/debug-core.log"}
+{"time":"2025-07-13T23:21:45.142699-03:00","level":"INFO","msg":"stream: created new stream","id":"qcu8o6ah"}
+{"time":"2025-07-13T23:21:45.142912-03:00","level":"INFO","msg":"stream: started","id":"qcu8o6ah"}
+{"time":"2025-07-13T23:21:45.142948-03:00","level":"INFO","msg":"sender: started","stream_id":"qcu8o6ah"}
+{"time":"2025-07-13T23:21:45.142972-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"qcu8o6ah"}
+{"time":"2025-07-13T23:21:45.143102-03:00","level":"INFO","msg":"handler: started","stream_id":"qcu8o6ah"}
+{"time":"2025-07-13T23:21:45.495202-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-13T23:21:45.577657-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-13T23:21:45.577694-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-13T23:21:46.588807-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.226606167,"progress":"117B/117B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.226518833,"progress":"127B/127B"}],"total_operations":2}}
+{"time":"2025-07-13T23:21:46.941074-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-13T23:21:47.233069-03:00","level":"INFO","msg":"stream: closing","id":"qcu8o6ah"}
+{"time":"2025-07-13T23:21:47.233154-03:00","level":"INFO","msg":"handler: closed","stream_id":"qcu8o6ah"}
+{"time":"2025-07-13T23:21:47.233192-03:00","level":"INFO","msg":"sender: closed","stream_id":"qcu8o6ah"}
+{"time":"2025-07-13T23:21:47.233618-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"qcu8o6ah"}
+{"time":"2025-07-13T23:21:47.233648-03:00","level":"INFO","msg":"stream: closed","id":"qcu8o6ah"}

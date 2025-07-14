@@ -1,0 +1,16 @@
+{
+  "os":  "macOS-15.5-arm64-arm-64bit",
+  "python":  "CPython 3.10.8",
+  "startedAt":  "2025-07-12T17:54:27.325517Z",
+  "program":  "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/continuous_descent_env.ipynb",
+  "codePath":  "descent-env/continuous_descent_env.ipynb",
+  "git":  {
+    "remote":  "https://github.com/agustin2606/IA.git",
+    "commit":  "b71bc8ccf2945f5ce1deb1b731d8836d8eaf1a8a"
+  },
+  "email":  "agustinvarela2606@gmail.com",
+  "root":  "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env",
+  "host":  "192.168.1.13",
+  "executable":  "/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/.venv/bin/python",
+  "codePathLocal":  "continuous_descent_env.ipynb"
+}

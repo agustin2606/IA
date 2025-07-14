@@ -1,0 +1,16 @@
+{"time":"2025-07-11T21:32:06.343173-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/Users/agustinvarela/Desktop/ORT/INTELIGENCIA_ARTIFICIAL/Obligatorio/IA/descent-env/wandb/run-20250711_213205-u8tpvw27/logs/debug-core.log"}
+{"time":"2025-07-11T21:32:06.777504-03:00","level":"INFO","msg":"stream: created new stream","id":"u8tpvw27"}
+{"time":"2025-07-11T21:32:06.777562-03:00","level":"INFO","msg":"stream: started","id":"u8tpvw27"}
+{"time":"2025-07-11T21:32:06.7776-03:00","level":"INFO","msg":"sender: started","stream_id":"u8tpvw27"}
+{"time":"2025-07-11T21:32:06.777613-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"u8tpvw27"}
+{"time":"2025-07-11T21:32:06.777631-03:00","level":"INFO","msg":"handler: started","stream_id":"u8tpvw27"}
+{"time":"2025-07-11T21:32:07.10559-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-11T21:32:07.181091-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-11T21:32:07.181149-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-11T21:32:08.196406-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.295151583,"progress":"493B/493B"}],"total_operations":1}}
+{"time":"2025-07-11T21:32:08.232571-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-11T21:32:08.536012-03:00","level":"INFO","msg":"stream: closing","id":"u8tpvw27"}
+{"time":"2025-07-11T21:32:08.536058-03:00","level":"INFO","msg":"handler: closed","stream_id":"u8tpvw27"}
+{"time":"2025-07-11T21:32:08.536084-03:00","level":"INFO","msg":"sender: closed","stream_id":"u8tpvw27"}
+{"time":"2025-07-11T21:32:08.536111-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"u8tpvw27"}
+{"time":"2025-07-11T21:32:08.536331-03:00","level":"INFO","msg":"stream: closed","id":"u8tpvw27"}
