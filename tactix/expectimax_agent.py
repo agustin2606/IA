@@ -108,6 +108,41 @@ class ExpectimaxAgent(Agent):
                     count = 0
     
         return long_segments
+    def heuristic_critical_segments(self, state):
+        """
+        Evalúa el estado basado en la cantidad de segmentos pequeños (1 o 2 fichas consecutivas)
+        disponibles para el oponente.
+        """
+        board = state["board"]
+        critical_segments = 0
+
+        # Contar segmentos pequeños en filas
+        for row in range(self.env.board_size):
+            count = 0
+            for col in range(self.env.board_size):
+                if board[row, col] == 1:
+                    count += 1
+                else:
+                    if 1 <= count <= 2:  # Segmento crítico (1 o 2 fichas consecutivas)
+                        critical_segments += 1
+                    count = 0
+            if 1 <= count <= 2:  # Verificar al final de la fila
+                critical_segments += 1
+
+        # Contar segmentos pequeños en columnas
+        for col in range(self.env.board_size):
+            count = 0
+            for row in range(self.env.board_size):
+                if board[row, col] == 1:
+                    count += 1
+                else:
+                    if 1 <= count <= 2:  # Segmento crítico
+                        critical_segments += 1
+                    count = 0
+            if 1 <= count <= 2:  # Verificar al final de la columna
+                critical_segments += 1
+
+        return critical_segments
         
     def heuristic_utility(self, state):
         """
@@ -121,14 +156,16 @@ class ExpectimaxAgent(Agent):
             else:  
                 return -1000 if not self.env.misere else 1000
 
-        heuristic_action_advantage = self.heuristic_action_advantage(self ,state)
+        heuristic_action_advantage = self.heuristic_action_advantage(state)
         heuristic_segments = self.heuristic_segments(state)
-
+        heuristic_critical_segments = self.heuristic_critical_segments(state)
        
-        weight_1 = 0.85 
-        weight_2 = 0.15  
-
-        return weight_1 * heuristic_action_advantage + weight_2 * heuristic_segments
+        weight_1 = 0.6  
+        weight_2 = 0.25  
+        weight_3 = 0.15  
+    
+        return (weight_1 * heuristic_action_advantage + weight_2 * heuristic_segments - 
+            weight_3 * heuristic_critical_segments) # Resta porque queremos reducir los segmentos criticos del oponente
         
     def perform_action(self, state, action):
         """

@@ -1,0 +1,16 @@
+{"time":"2025-07-11T19:01:43.1443266-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\Agu\\Desktop\\l\\ORT\\INTELIGENCIA_ARTIFICIAL\\IA\\tactix\\wandb\\run-20250711_190143-vbnusiag\\logs\\debug-core.log"}
+{"time":"2025-07-11T19:01:43.4577466-03:00","level":"INFO","msg":"stream: created new stream","id":"vbnusiag"}
+{"time":"2025-07-11T19:01:43.4577466-03:00","level":"INFO","msg":"stream: started","id":"vbnusiag"}
+{"time":"2025-07-11T19:01:43.4577466-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"vbnusiag"}
+{"time":"2025-07-11T19:01:43.4577466-03:00","level":"INFO","msg":"sender: started","stream_id":"vbnusiag"}
+{"time":"2025-07-11T19:01:43.4577466-03:00","level":"INFO","msg":"handler: started","stream_id":"vbnusiag"}
+{"time":"2025-07-11T19:01:43.855752-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-11T20:52:48.6686669-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-11T20:52:48.6686669-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-11T20:52:49.6844649-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-vbnusiag-total_wins_bar_chat_table","runtime_seconds":1.0413866999999999,"subtasks":[{"desc":"total_wins_bar_chat_table.table.json","runtime_seconds":0.1469219,"progress":"419B/419B"}]},{"desc":"uploading media\\table\\total_wins_bar_chat_table_11_19db9b15eb392cd0bcb1.table.json","runtime_seconds":0.7917736,"progress":"73B/73B"},{"desc":"uploading output.log","runtime_seconds":0.7917736,"progress":"117B/117B"},{"desc":"uploading config.yaml","runtime_seconds":0.4576824,"progress":"1.6KB/1.6KB"}],"total_operations":4}}
+{"time":"2025-07-11T20:52:50.8236304-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-11T20:52:51.1110512-03:00","level":"INFO","msg":"stream: closing","id":"vbnusiag"}
+{"time":"2025-07-11T20:52:51.1110512-03:00","level":"INFO","msg":"handler: closed","stream_id":"vbnusiag"}
+{"time":"2025-07-11T20:52:51.1110512-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vbnusiag"}
+{"time":"2025-07-11T20:52:51.1110512-03:00","level":"INFO","msg":"sender: closed","stream_id":"vbnusiag"}
+{"time":"2025-07-11T20:52:51.1110512-03:00","level":"INFO","msg":"stream: closed","id":"vbnusiag"}

@@ -1,0 +1,58 @@
+2025-07-12 18:42:01,576 INFO    MainThread:25460 [wandb_init.py:setup_run_log_directory():703] Logging user logs to c:\Users\Agu\Desktop\l\ORT\INTELIGENCIA_ARTIFICIAL\IA\tactix\wandb\run-20250712_184201-v0lbdmd0\logs\debug.log
+2025-07-12 18:42:01,576 INFO    MainThread:25460 [wandb_init.py:setup_run_log_directory():704] Logging internal logs to c:\Users\Agu\Desktop\l\ORT\INTELIGENCIA_ARTIFICIAL\IA\tactix\wandb\run-20250712_184201-v0lbdmd0\logs\debug-internal.log
+2025-07-12 18:42:01,577 INFO    MainThread:25460 [wandb_init.py:monkeypatch_ipython():622] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000022539DE6980>
+2025-07-12 18:42:01,577 INFO    MainThread:25460 [wandb_init.py:init():831] calling init triggers
+2025-07-12 18:42:01,577 INFO    MainThread:25460 [wandb_init.py:init():836] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-07-12 18:42:01,577 INFO    MainThread:25460 [wandb_init.py:init():872] starting backend
+2025-07-12 18:42:01,577 INFO    MainThread:25460 [wandb_init.py:init():875] sending inform_init request
+2025-07-12 18:42:01,579 INFO    MainThread:25460 [wandb_init.py:init():883] backend started and connected
+2025-07-12 18:42:01,580 INFO    MainThread:25460 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2025-07-12 18:42:01,589 INFO    MainThread:25460 [wandb_init.py:init():956] updated telemetry
+2025-07-12 18:42:01,623 INFO    MainThread:25460 [wandb_init.py:init():980] communicating run to backend with 90.0 second timeout
+2025-07-12 18:42:02,216 INFO    MainThread:25460 [wandb_init.py:init():1032] starting run threads in backend
+2025-07-12 18:42:02,294 INFO    MainThread:25460 [wandb_run.py:_console_start():2453] atexit reg
+2025-07-12 18:42:02,295 INFO    MainThread:25460 [wandb_run.py:_redirect():2301] redirect: wrap_raw
+2025-07-12 18:42:02,295 INFO    MainThread:25460 [wandb_run.py:_redirect():2370] Wrapping output streams.
+2025-07-12 18:42:02,295 INFO    MainThread:25460 [wandb_run.py:_redirect():2393] Redirects installed.
+2025-07-12 18:42:02,295 INFO    MainThread:25460 [wandb_init.py:init():1078] run started, returning control to user process
+2025-07-12 21:02:42,938 INFO    MainThread:25460 [wandb_run.py:_config_callback():1358] config_cb ('_wandb', 'visualize', 'total_wins_bar_chat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/bar/v0', 'fieldSettings': {'label': 'Agent', 'value': 'Wins'}, 'stringSettings': {'title': 'Total Wins by Agent'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'total_wins_bar_chat_table'}], 'fields': []}]}]}}} None
+2025-07-12 21:02:44,104 INFO    MainThread:25460 [wandb_init.py:_post_run_cell_hook():592] [no run ID] resuming backend
+2025-07-12 21:03:54,824 INFO    MainThread:25460 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-07-12 21:03:54,824 INFO    MainThread:25460 [wandb_init.py:_pre_run_cell_hook():581] [no run ID] pausing backend
+2025-07-12 21:03:55,100 INFO    MainThread:25460 [wandb_init.py:_post_run_cell_hook():592] [no run ID] resuming backend
+2025-07-12 21:04:28,486 INFO    MainThread:25460 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-07-12 21:04:28,487 INFO    MainThread:25460 [wandb_init.py:_pre_run_cell_hook():581] [no run ID] pausing backend
+2025-07-12 21:04:28,892 INFO    MainThread:25460 [wandb_init.py:_post_run_cell_hook():592] [no run ID] resuming backend
+2025-07-12 23:08:30,276 INFO    MainThread:25460 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-07-12 23:08:30,277 INFO    MainThread:25460 [wandb_init.py:_pre_run_cell_hook():581] [no run ID] pausing backend
+2025-07-12 23:08:30,290 INFO    MainThread:25460 [wandb_init.py:_post_run_cell_hook():592] [no run ID] resuming backend
+2025-07-12 23:08:30,309 INFO    MainThread:25460 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-07-12 23:08:30,310 INFO    MainThread:25460 [wandb_init.py:_pre_run_cell_hook():581] [no run ID] pausing backend
+2025-07-12 23:08:30,352 INFO    MainThread:25460 [wandb_init.py:_post_run_cell_hook():592] [no run ID] resuming backend
+2025-07-12 23:08:30,371 INFO    MainThread:25460 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-07-12 23:08:30,371 INFO    MainThread:25460 [wandb_init.py:_pre_run_cell_hook():581] [no run ID] pausing backend
+2025-07-12 23:08:30,386 INFO    MainThread:25460 [wandb_init.py:_post_run_cell_hook():592] [no run ID] resuming backend
+2025-07-12 23:08:30,397 INFO    MainThread:25460 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-07-12 23:08:30,397 INFO    MainThread:25460 [wandb_init.py:_pre_run_cell_hook():581] [no run ID] pausing backend
+2025-07-12 23:08:30,406 INFO    MainThread:25460 [wandb_init.py:_post_run_cell_hook():592] [no run ID] resuming backend
+2025-07-12 23:08:30,414 INFO    MainThread:25460 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-07-12 23:08:30,414 INFO    MainThread:25460 [wandb_init.py:_pre_run_cell_hook():581] [no run ID] pausing backend
+2025-07-12 23:09:10,834 INFO    MainThread:25460 [wandb_init.py:_post_run_cell_hook():592] [no run ID] resuming backend
+2025-07-12 23:09:10,850 INFO    MainThread:25460 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-07-12 23:09:10,850 INFO    MainThread:25460 [wandb_init.py:_pre_run_cell_hook():581] [no run ID] pausing backend
+2025-07-12 23:17:28,639 INFO    MainThread:25460 [wandb_init.py:_post_run_cell_hook():592] [no run ID] resuming backend
+2025-07-12 23:17:28,649 INFO    MainThread:25460 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-07-12 23:17:28,649 INFO    MainThread:25460 [wandb_init.py:_pre_run_cell_hook():581] [no run ID] pausing backend
+2025-07-12 23:17:29,587 INFO    MainThread:25460 [wandb_init.py:_post_run_cell_hook():592] [no run ID] resuming backend
+2025-07-12 23:17:29,610 INFO    MainThread:25460 [jupyter.py:save_ipynb():404] [no run ID] not saving jupyter notebook
+2025-07-12 23:17:29,610 INFO    MainThread:25460 [wandb_init.py:_pre_run_cell_hook():581] [no run ID] pausing backend
+2025-07-12 23:17:29,668 INFO    MainThread:25460 [wandb_run.py:_finish():2219] finishing run artificial-inteligence-ort/tactix-experiments/v0lbdmd0
+2025-07-12 23:17:29,674 INFO    MainThread:25460 [jupyter.py:save_ipynb():404] not saving jupyter notebook
+2025-07-12 23:17:29,674 INFO    MainThread:25460 [wandb_init.py:_jupyter_teardown():607] cleaning up jupyter logic
+2025-07-12 23:17:29,674 INFO    MainThread:25460 [wandb_run.py:_atexit_cleanup():2418] got exitcode: 0
+2025-07-12 23:17:29,675 INFO    MainThread:25460 [wandb_run.py:_restore():2400] restore
+2025-07-12 23:17:29,675 INFO    MainThread:25460 [wandb_run.py:_restore():2406] restore done
+2025-07-12 23:17:31,288 INFO    MainThread:25460 [wandb_run.py:_footer_history_summary_info():4000] rendering history
+2025-07-12 23:17:31,288 INFO    MainThread:25460 [wandb_run.py:_footer_history_summary_info():4032] rendering summary
+2025-07-12 23:17:31,290 INFO    MainThread:25460 [wandb_run.py:_footer_sync_info():3961] logging synced files

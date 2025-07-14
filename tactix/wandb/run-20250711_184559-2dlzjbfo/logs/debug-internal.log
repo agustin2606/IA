@@ -1,0 +1,16 @@
+{"time":"2025-07-11T18:45:59.6572889-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\Agu\\Desktop\\l\\ORT\\INTELIGENCIA_ARTIFICIAL\\IA\\tactix\\wandb\\run-20250711_184559-2dlzjbfo\\logs\\debug-core.log"}
+{"time":"2025-07-11T18:45:59.9864056-03:00","level":"INFO","msg":"stream: created new stream","id":"2dlzjbfo"}
+{"time":"2025-07-11T18:45:59.9864056-03:00","level":"INFO","msg":"stream: started","id":"2dlzjbfo"}
+{"time":"2025-07-11T18:45:59.9864056-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"2dlzjbfo"}
+{"time":"2025-07-11T18:45:59.9864056-03:00","level":"INFO","msg":"sender: started","stream_id":"2dlzjbfo"}
+{"time":"2025-07-11T18:45:59.9864056-03:00","level":"INFO","msg":"handler: started","stream_id":"2dlzjbfo"}
+{"time":"2025-07-11T18:46:00.2236581-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-11T19:01:40.1493131-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-11T19:01:40.1493131-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-11T19:01:41.1532039-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-2dlzjbfo-total_wins_bar_chat_table","runtime_seconds":1.4243991999999999,"subtasks":[{"desc":"total_wins_bar_chat_table.table.json","runtime_seconds":0.5031249,"progress":"419B/419B"}]},{"desc":"uploading wandb-summary.json","runtime_seconds":0.7572037,"progress":"836B/836B"},{"desc":"uploading config.yaml","runtime_seconds":0.5475295,"progress":"1.6KB/1.6KB"}],"total_operations":3}}
+{"time":"2025-07-11T19:01:42.5473975-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-11T19:01:42.8429989-03:00","level":"INFO","msg":"stream: closing","id":"2dlzjbfo"}
+{"time":"2025-07-11T19:01:42.8429989-03:00","level":"INFO","msg":"handler: closed","stream_id":"2dlzjbfo"}
+{"time":"2025-07-11T19:01:42.8429989-03:00","level":"INFO","msg":"sender: closed","stream_id":"2dlzjbfo"}
+{"time":"2025-07-11T19:01:42.8429989-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"2dlzjbfo"}
+{"time":"2025-07-11T19:01:42.8429989-03:00","level":"INFO","msg":"stream: closed","id":"2dlzjbfo"}

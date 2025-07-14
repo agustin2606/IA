@@ -1,0 +1,17 @@
+{"time":"2025-07-12T15:35:22.0507216-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\Agu\\Desktop\\l\\ORT\\INTELIGENCIA_ARTIFICIAL\\IA\\tactix\\wandb\\run-20250712_153521-przwvlv8\\logs\\debug-core.log"}
+{"time":"2025-07-12T15:35:22.3656789-03:00","level":"INFO","msg":"stream: created new stream","id":"przwvlv8"}
+{"time":"2025-07-12T15:35:22.3656789-03:00","level":"INFO","msg":"stream: started","id":"przwvlv8"}
+{"time":"2025-07-12T15:35:22.3656789-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"przwvlv8"}
+{"time":"2025-07-12T15:35:22.3656789-03:00","level":"INFO","msg":"sender: started","stream_id":"przwvlv8"}
+{"time":"2025-07-12T15:35:22.3656789-03:00","level":"INFO","msg":"handler: started","stream_id":"przwvlv8"}
+{"time":"2025-07-12T15:35:22.633508-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-12T17:40:34.6275437-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.8:64018->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-07-12T17:53:10.3042197-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-12T17:53:10.3042197-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-12T17:53:11.3139195-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-przwvlv8-total_wins_bar_chat_table","runtime_seconds":1.0307293,"subtasks":[{"desc":"total_wins_bar_chat_table.table.json","runtime_seconds":0.258512,"progress":"419B/419B"}]},{"desc":"uploading output.log","runtime_seconds":0.7845169,"progress":"117B/117B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.7845169,"progress":"839B/839B"},{"desc":"uploading config.yaml","runtime_seconds":0.5832632,"progress":"1.6KB/1.6KB"}],"total_operations":4}}
+{"time":"2025-07-12T17:53:13.0041835-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-12T17:53:13.4541509-03:00","level":"INFO","msg":"stream: closing","id":"przwvlv8"}
+{"time":"2025-07-12T17:53:13.4541509-03:00","level":"INFO","msg":"handler: closed","stream_id":"przwvlv8"}
+{"time":"2025-07-12T17:53:13.4541509-03:00","level":"INFO","msg":"sender: closed","stream_id":"przwvlv8"}
+{"time":"2025-07-12T17:53:13.4541509-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"przwvlv8"}
+{"time":"2025-07-12T17:53:13.4541509-03:00","level":"INFO","msg":"stream: closed","id":"przwvlv8"}

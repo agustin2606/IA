@@ -1,0 +1,16 @@
+{"time":"2025-07-12T12:02:24.0275893-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\Agu\\Desktop\\l\\ORT\\INTELIGENCIA_ARTIFICIAL\\IA\\tactix\\wandb\\run-20250712_120223-bpsocyli\\logs\\debug-core.log"}
+{"time":"2025-07-12T12:02:24.6211878-03:00","level":"INFO","msg":"stream: created new stream","id":"bpsocyli"}
+{"time":"2025-07-12T12:02:24.6211878-03:00","level":"INFO","msg":"stream: started","id":"bpsocyli"}
+{"time":"2025-07-12T12:02:24.6211878-03:00","level":"INFO","msg":"handler: started","stream_id":"bpsocyli"}
+{"time":"2025-07-12T12:02:24.6211878-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"bpsocyli"}
+{"time":"2025-07-12T12:02:24.6211878-03:00","level":"INFO","msg":"sender: started","stream_id":"bpsocyli"}
+{"time":"2025-07-12T12:02:24.9456571-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-12T12:17:44.2785889-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-12T12:17:44.2785889-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-12T12:17:45.2865266-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":5.7707602},{"desc":"uploading artifact run-bpsocyli-total_wins_bar_chat_table","runtime_seconds":3.5908664,"subtasks":[{"desc":"total_wins_bar_chat_table.table.json","runtime_seconds":0.548719,"progress":"419B/419B"}]},{"desc":"uploading media\\table\\total_wins_bar_chat_table_11_4a3a376c79469019f3be.table.json","runtime_seconds":2.8439337,"progress":"73B/73B"}],"total_operations":3}}
+{"time":"2025-07-12T12:17:49.1085904-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-12T12:17:51.8743337-03:00","level":"INFO","msg":"stream: closing","id":"bpsocyli"}
+{"time":"2025-07-12T12:17:51.8743337-03:00","level":"INFO","msg":"sender: closed","stream_id":"bpsocyli"}
+{"time":"2025-07-12T12:17:51.8743337-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bpsocyli"}
+{"time":"2025-07-12T12:17:51.8743337-03:00","level":"INFO","msg":"handler: closed","stream_id":"bpsocyli"}
+{"time":"2025-07-12T12:17:51.8743337-03:00","level":"INFO","msg":"stream: closed","id":"bpsocyli"}

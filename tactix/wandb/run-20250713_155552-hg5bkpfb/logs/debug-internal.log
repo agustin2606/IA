@@ -1,0 +1,17 @@
+{"time":"2025-07-13T15:55:52.530194-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\Agu\\Desktop\\l\\ORT\\INTELIGENCIA_ARTIFICIAL\\IA\\tactix\\wandb\\run-20250713_155552-hg5bkpfb\\logs\\debug-core.log"}
+{"time":"2025-07-13T15:55:52.8436034-03:00","level":"INFO","msg":"stream: created new stream","id":"hg5bkpfb"}
+{"time":"2025-07-13T15:55:52.8436034-03:00","level":"INFO","msg":"stream: started","id":"hg5bkpfb"}
+{"time":"2025-07-13T15:55:52.8436034-03:00","level":"INFO","msg":"sender: started","stream_id":"hg5bkpfb"}
+{"time":"2025-07-13T15:55:52.8436034-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"hg5bkpfb"}
+{"time":"2025-07-13T15:55:52.8436034-03:00","level":"INFO","msg":"handler: started","stream_id":"hg5bkpfb"}
+{"time":"2025-07-13T15:55:53.1751002-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-13T17:44:48.9767376-03:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.8:54940->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-07-13T18:11:06.384412-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-13T18:11:06.384412-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-13T18:11:07.4031952-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-hg5bkpfb-total_wins_bar_chat_table","runtime_seconds":1.0356718,"subtasks":[{"desc":"total_wins_bar_chat_table.table.json","runtime_seconds":0.1155241,"progress":"419B/419B"}]},{"desc":"uploading media\\table\\total_wins_bar_chat_table_11_24896e2280e47efa1b6b.table.json","runtime_seconds":0.7882669,"progress":"73B/73B"},{"desc":"uploading config.yaml","runtime_seconds":0.5786833,"progress":"1.6KB/1.6KB"}],"total_operations":3}}
+{"time":"2025-07-13T18:11:08.4974514-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-13T18:11:08.7777067-03:00","level":"INFO","msg":"stream: closing","id":"hg5bkpfb"}
+{"time":"2025-07-13T18:11:08.7777067-03:00","level":"INFO","msg":"handler: closed","stream_id":"hg5bkpfb"}
+{"time":"2025-07-13T18:11:08.7777067-03:00","level":"INFO","msg":"sender: closed","stream_id":"hg5bkpfb"}
+{"time":"2025-07-13T18:11:08.7777067-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hg5bkpfb"}
+{"time":"2025-07-13T18:11:08.7777067-03:00","level":"INFO","msg":"stream: closed","id":"hg5bkpfb"}

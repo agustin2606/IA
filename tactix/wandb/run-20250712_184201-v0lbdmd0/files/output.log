@@ -1,0 +1,20 @@
+O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O
+Player 1's turn (Normal rules)
+
+O O O O O O
+. . . O O O
+O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O
+Player 2's turn (Normal rules)
+
+Agent 2 wins!
+Expectimax vs Random:
+Agent 2 wins!
+[34m[1mwandb[0m: [32m[41mERROR[0m The nbformat package was not found. It is required to save notebook history.

@@ -1,0 +1,16 @@
+{"time":"2025-07-13T11:52:10.2315-03:00","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"c:\\Users\\Agu\\Desktop\\l\\ORT\\INTELIGENCIA_ARTIFICIAL\\IA\\tactix\\wandb\\run-20250713_115209-g3mvuryt\\logs\\debug-core.log"}
+{"time":"2025-07-13T11:52:10.5929155-03:00","level":"INFO","msg":"stream: created new stream","id":"g3mvuryt"}
+{"time":"2025-07-13T11:52:10.5929155-03:00","level":"INFO","msg":"stream: started","id":"g3mvuryt"}
+{"time":"2025-07-13T11:52:10.5936182-03:00","level":"INFO","msg":"sender: started","stream_id":"g3mvuryt"}
+{"time":"2025-07-13T11:52:10.5929155-03:00","level":"INFO","msg":"writer: Do: started","stream_id":"g3mvuryt"}
+{"time":"2025-07-13T11:52:10.5936182-03:00","level":"INFO","msg":"handler: started","stream_id":"g3mvuryt"}
+{"time":"2025-07-13T11:52:10.9548025-03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-07-13T15:55:49.9901578-03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-07-13T15:55:49.9901578-03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-07-13T15:55:50.9982452-03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-g3mvuryt-total_wins_bar_chat_table","runtime_seconds":1.452131},{"desc":"uploading output.log","runtime_seconds":0.7275931,"progress":"166B/166B"},{"desc":"uploading config.yaml","runtime_seconds":0.5439491,"progress":"1.6KB/1.6KB"}],"total_operations":3}}
+{"time":"2025-07-13T15:55:51.8617791-03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-13T15:55:52.1523612-03:00","level":"INFO","msg":"stream: closing","id":"g3mvuryt"}
+{"time":"2025-07-13T15:55:52.1523612-03:00","level":"INFO","msg":"handler: closed","stream_id":"g3mvuryt"}
+{"time":"2025-07-13T15:55:52.1523612-03:00","level":"INFO","msg":"sender: closed","stream_id":"g3mvuryt"}
+{"time":"2025-07-13T15:55:52.1523612-03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"g3mvuryt"}
+{"time":"2025-07-13T15:55:52.1528726-03:00","level":"INFO","msg":"stream: closed","id":"g3mvuryt"}
